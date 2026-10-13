@@ -4,8 +4,9 @@ package org.example;
 public class Main {
 
     public static void main(String[] args) {
-        String hello = "Hello ";
-        String java = "java";
-        System.out.println(hello + java);
+        int a = 5;	// 5 = 0101
+        int b = a >> 2;	// <<1
+        System.out.println(b);	// 0001
+
     }
 }
